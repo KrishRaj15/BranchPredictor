@@ -63,7 +63,7 @@ Total_Branches: 23456
 PC          Target     Taken
 
 0x401234    0x401278   1
-0x401278    0x401290   0
+0x401278    0x0        0
 ```
 
 Where:
@@ -79,7 +79,7 @@ Where:
 ### Compile the PIN Tool
 
 ```bash
-make obj-intel64/MyPinTool.so
+make
 ```
 
 ### Compile the Analyzer
@@ -95,7 +95,7 @@ g++ Branch_Predictor.cpp -o analyze
 ### 1. Generate Branch Trace
 
 ```bash
-pin -t MyPinTool.so -- ./Example
+/path-to-pin/pin -t obj-intel64/MyPinTool.so -- ./Example
 ```
 
 This generates:
