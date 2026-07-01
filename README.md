@@ -120,10 +120,10 @@ Predictor Accuracies
 Always Taken : 65.4%
 Always NT    : 34.6%
 1-Bit        : 81.2%
-2-Bit        : 87.5%
-Loop         : 89.1%
-GShare       : 92.3%
-RACBP        : 94.0%
+2-Bit        : 90.5%
+RACBP        : 91.82%
+Loop         : 93.1%
+GShare       : 95.3%
 ```
 
 ---
